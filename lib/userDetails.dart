@@ -19,7 +19,7 @@ class UserDetails extends StatelessWidget{
           children: [
             Image.network(userDataModel.imgUrl),
             Padding(
-              padding:EdgeInsets.fromLTRB(4,13,4,4),
+              padding: EdgeInsets.fromLTRB(4,13,4,4),
               child: Text(userDataModel.name),
             ),
             Text(userDataModel.email),
